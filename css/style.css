@@ -1,0 +1,139 @@
+a {
+    font-family: 'Raleway', sans-serif;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    }
+
+li {
+    float: right;
+    }
+
+li a {
+    display: block;
+    color: rgb(9, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.go{
+   font-family: 'Source Code Pro', monospace;
+   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+   text-align: center;
+   color: #2596be;
+   margin-bottom: 30px;
+
+}
+
+.top{
+  font-family: 'Source Code Pro', monospace;
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  text-align: center;
+  color: #2596be;
+  margin-bottom: 30px;
+}
+
+.available{
+  font-family: 'Source Code Pro', monospace;
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  text-align: center;
+  color: #2596be;
+  margin-bottom: 30px;
+}
+
+.video{
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gadget {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+#images{
+   text-align:center;
+}
+
+.video{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#panorama-360-view1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 40vh;
+}
+
+#panorama-360-view2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 40vh;
+}
+
+#panorama-360-view3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 40vh;
+}
+
+#panorama-360-view4 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 40vh;
+}
+
+#panorama-360-view5 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 40vh;
+}
+
+#panorama-360-view6 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 40vh;
+  margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #2596be;
+    color: white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
